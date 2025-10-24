@@ -12,9 +12,14 @@ public:
                 count[s[i]-'a']++;
                 count[t[i]-'a']--;
             }
-            bool allZeros = all_of(begin(count), end(count), [](int element) {
-            return element == 0;
-        });
+            bool allZeros= true;
+            for (int i=0 ; i<count.size();i++){
+                if (count[i]!=0){
+                    allZeros=false;
+                    break;
+                }
+            }
+
         
         return allZeros;
      
