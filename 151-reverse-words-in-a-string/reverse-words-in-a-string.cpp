@@ -4,7 +4,7 @@ public:
         reverse(s.begin(),s.end());
         int i = 0;
         int l = 0 , r =0 ;
-        int n =s.length();
+        int n =s.size();
         while(i<n){
             while(i<n && s[i] != ' '){
                 s[r++]=s[i++];
