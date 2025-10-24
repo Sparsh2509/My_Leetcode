@@ -8,6 +8,7 @@ public:
         while(i<n){
             while(i<n && s[i] != ' '){
                 s[r++]=s[i++];
+
             }
             if (l < r){
                 reverse(s.begin()+l,s.begin()+r);
