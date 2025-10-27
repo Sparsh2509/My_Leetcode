@@ -11,7 +11,7 @@ public:
             for (int j = i; j < n; ++j) {
                 freq[s[j] - 'a']++;
 
-                int max_f = INT_MIN, min_f = INT_MAX;
+                int max_f = 0, min_f = INT_MAX;
                 for (int f:freq) {
                     if (f> 0) {
                         max_f = max(max_f, f);
