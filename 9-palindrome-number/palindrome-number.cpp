@@ -8,12 +8,6 @@ public:
             pal=pal*10+rem;
             x=x/10;
         }
-        if (temp==pal){
-            return true;
-        }
-        else{
-            return false;
-        }
-        
+        return pal==temp;
     }
 };
