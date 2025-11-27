@@ -11,9 +11,9 @@ class Solution {
 public:
     int guessNumber(int n) {
 
-        int left=1;
-        int right=n;
-        int mid;
+        long long left=1;
+        long long right=n;
+        long long mid;
 
         while(left<=right){
             mid=left+((right-left)/2);
