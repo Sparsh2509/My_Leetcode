@@ -11,17 +11,7 @@ public:
 
         return original;
 
-        // while (true) {
-        //     bool found = false;
-        //     for (int n : nums) {
-        //         if (n == original) {
-        //             original *= 2;
-        //             found = true;
-        //             break;
-        //         }
-        //     }
-        //     if (found == false) return original;
-        // }
+        
         
     }
 };
