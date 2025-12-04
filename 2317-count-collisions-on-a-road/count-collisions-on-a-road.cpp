@@ -11,6 +11,12 @@ public:
             ans += directions[i] != 'S';
         }
         return ans;
+
+        // PYTHON CODE
         
+        // directions = directions.lstrip("L")
+        // directions = directions.rstrip("R")
+
+        // return directions.count("R") + directions.count("L")
     }
 };
