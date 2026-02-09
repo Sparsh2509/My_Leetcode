@@ -8,7 +8,6 @@ public:
             mp[nums[i]]++;
             
         }
-
         for(auto mpp:mp){
             if(mpp.second>1){
                 return mpp.first;
