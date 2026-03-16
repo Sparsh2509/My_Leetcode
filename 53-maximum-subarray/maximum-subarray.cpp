@@ -5,7 +5,7 @@ public:
         int res=nums[0];
         int maxending = nums[0];
         for(int i =0 ;i<n;i++){
-            int maxending= max( nums[i],maxending+nums[i]);
+            int maxending= max(nums[i],maxending+nums[i]);
             res=max(res,maxending);
 
         }
