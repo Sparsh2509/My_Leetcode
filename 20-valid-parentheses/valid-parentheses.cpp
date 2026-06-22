@@ -25,26 +25,7 @@ public:
         }
 
         return st.empty();
-        // for(int i=0;i<s.length();i++){
-        //     if(a.empty()){
-        //        a.push(s[i]); 
-        //     }
-        //     else if ((a.top() == '(' && s[i] == ')')
-        //          || (a.top() == '{' && s[i] == '}')
-        //          || (a.top() == '[' && s[i] == ']'))
-        //     {
-        //         a.pop();
-        //     }
-        //     else{
-        //         a.push(s[i]);
-        //     }    
-        // }
-        // if(a.empty()){
-        //     return true;
-        // }
-        // else{
-        //     return false;
-        // }
+
         
     }
 };
