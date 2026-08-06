@@ -11,8 +11,14 @@ public:
             digits[i]=0;
 
         }
-        digits.insert(digits.begin(),1);
-        return digits;
+        vector<int> ans;
+        ans.push_back(1);
+
+        for(int x : digits){
+            ans.push_back(x);
+        }
+
+        return ans;
         
         
     }
